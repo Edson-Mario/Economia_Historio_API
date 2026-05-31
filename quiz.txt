@@ -1,0 +1,50 @@
++-------------+
+|    QUIZ     |
++-------------+
+| PK id_quiz  |
+| titulo      |
+| descricao   |
++-------------+
+       |
+       | 1
+       |
+       | N
++----------------+
+|   PERGUNTA     |
++----------------+
+| PK id_pergunta |
+| enunciado      |
+| pontuacao      |
+| FK id_quiz     |
++----------------+
+       |
+       | 1
+       |
+       | N
++------------------+
+|   ALTERNATIVA    |
++------------------+
+| PK id_alternativa|
+| texto            |
+| correta          |
+| FK id_pergunta   |
++------------------+
+
+
+Admin
+  ↓
+Cria Quiz
+  ↓
+Adiciona Pergunta
+  ↓
+Adiciona 4 ou mais Alternativas
+  ↓
+Marca apenas uma como correta
+  ↓
+Publica Quiz
+  ↓
+Usuários respondem
+  ↓
+Sistema calcula pontuação
+  ↓
+Ranking é atualizado

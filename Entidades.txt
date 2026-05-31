@@ -1,0 +1,73 @@
+Entidades:
+ - usuário(nome, e-mail, senha, tipo usuário)
+ - artigo(titulo, texto, duração de leitura, categoria, publicador(admin), comentários, imagem?, vídeo?, quantidade de visualização, data de publicação)
+ - categoria(nome)
+ - comentários(texto, usuário, likes)
+ - fórum(titulo, descrição, categoria, comentário, acesso(publico, privado))
+ - notificação(tipo de notificação, mensagem)
+
+1 - usuário:
+	a aplicação terá a principio 2 tipos de usuários(usuario e admin), mas um usuário pode ter mais de um tipo;
+	
+	1.1 usuário normal: 
+		- acessar a sua conta ou sair
+		- visualizar seu perfil, editar sua conta, remover conta
+
+	1.2 usuário admin:
+		- gerenciar usuário;
+		- adicionar artigo, remover artigo, editar artigo;
+		- adicionar nova categoria na aplicação;
+		- definir um usuário como usuario do tipo admin, escritor;
+		
+	1.3 - usuário escritor:
+		- escrever novo artigo, que ficará pendente para que seja aprovado pelo admin, e após a provação pelo admin só assim será publicado;
+
+
+
+2- Artigo:
+	2.1 - admin pode gerenciar artigo: criar um artigo, eliminir artigo, editar artigo,;
+	2.2 - listar todos artigo, listar artigo por categoria;
+	2.3 - cada artigo tem uma lista de comentario;
+
+
+3 - Forum:
+	3.1 - um usuário pode criar novo forum, um forum tera associado uma lista de comentarios;
+	3.2 - um usuário pode adicionar um comentario a um forum
+	3.3 - um forum pode ser criado como publico ou privado;
+	3.4 - um fórum publico: está aberto para qualquer usuário;
+	3.5 - fórum privado: para participar o usuário precisa solicitar e obter a permição, só assim pode comentar neste forum
+
+
+
+
+
+
+
+- Fórum privado: O usuário solicitará para participar; qualquer pessoa pode participar no fórum publico;
+
+- um usuário pode denunciar um publicação e o admin recebe uma notificação(o admin não pode apagar este comentário, vai ser ocultado)
+
+
+
+- usuário não autenticado: não visualiza os resultados dos quiz, não podem criar e comentar no fórum, mas pode explorar conteúdo;
+- Testos com jindungo: são testos do admin, o usuário precisa solicitar para visualizar estes conteúdos;
+- o Admin pode delegar usuário normais para terem privilégios a mais
+- um admin pode ser escritor, revisor, 
+
+
+níveis de usuário(usuário, admin, escritor, revisor, super admin(tem toda permissão));
+
+usuário com privilégios(os privilégios são: escritores, revisores);
+
+Nota: um escritor pode ser um revisor
+
+
+
+1- Categorias dos artigos(podem ser adicionado pelo admin):
+
+-História do Kwanza
+-Petróleo e Gás
+-Diamantes
+-Agricultura
+-Diversificação Econômica
+-Investimentos em Angola

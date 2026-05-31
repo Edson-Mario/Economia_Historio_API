@@ -1,0 +1,28 @@
+- Fórum privado: O usuário solicitará para participar; qualquer pessoa pode participar no fórum publico;
+
+- um usuário pode denunciar um publicação e o admin recebe uma notificação(o admin não pode apagar este comentário, vai ser ocultado)
+
+
+
+- usuário não autenticado: não visualiza os resultados dos quiz, não podem criar e comentar no fórum, mas pode explorar conteúdo;
+- Testos com jindungo: são testos do admin, o usuário precisa solicitar para visualizar estes conteúdos;
+- o Admin pode delegar usuário normais para terem privilégios a mais
+- um admin pode ser escritor, revisor, 
+
+
+níveis de usuário(usuário, admin, escritor, revisor, super admin(tem toda permissão));
+
+usuário com privilégios(os privilégios são: escritores, revisores);
+
+Nota: um escritor pode ser um revisor
+
+
+
+1- Categorias dos artigos(podem ser adicionado pelo admin):
+
+-História do Kwanza
+-Petróleo e Gás
+-Diamantes
+-Agricultura
+-Diversificação Econômica
+-Investimentos em Angola
